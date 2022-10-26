@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+body{
+  width: 100%;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+}
+#main-container{
+  display:flex;
+  justify-content: center;
+  margin:auto;
+  margin-top:50%;
+  width:80%;
+}
+#luxury{
+  margin-bottom: 37%;
+}
+
+.card1{
+  width:100%;
+  color:white;
+}
+img{
+  margin-top:15%;
+  margin-bottom:10%;
+  margin-left: 10%;
+}
+h2{
+  margin-bottom: 10%;
+  margin-left: 10%;
+}
+p{
+  margin-bottom: 30%;
+  margin-left: 10%;
+}
+button{
+  background-color: white;
+  width: 50%;
+  padding:4%;
+  border-radius: 20px;
+  margin-bottom: 15%;
+  margin-left: 10%;
+  border:none;
+}
+#Grid-container{
+      display: grid; 
+     grid-template-areas:  
+     "a a b" 
+     "a a b" 
+     "c c d" 
+     "c c e" 
+     ; 
+     gap: 10px; 
+     width: 30%; 
+     margin: auto;
+ 
+}
+.grid-item-a{
+  grid-area: a;
+  
+}
+.grid-item-b{
+  grid-area: b;
+  
+}
+.grid-item-c{
+  grid-area: c;
+  
+}
+.grid-item-d{
+  grid-area: d;
+  
+}
+.grid-item-e{
+  grid-area: e;
+  
+}
+#item1{
+ 
+  background-color: sky-blue;
+}
+#item2{
+  
+  background-color: green;
+}
+
+#item3{
+
+  background-color: pink;
+}
+#item4{
+
+  background-color: red;
+}
+#item5{
+  
+  background-color: green ;
+}
